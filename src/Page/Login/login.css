@@ -1,0 +1,225 @@
+.login-form {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.login-form::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 88%;
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2) ;
+}
+
+.logo-spotify {
+  height: 105px;
+  width: 100%;
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.Svg-sc-6c3c1v-0{
+  height: 80px;
+  width: 180px; 
+  justify-content: center;
+}
+
+.form-message{
+  font-size: 1.4rem;
+  display: none;
+  padding-bottom: 20px;
+}
+
+.title-continue{
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin-top: 46px;
+}
+
+.log-error{
+  margin-top: 12px;
+  display: block;
+  min-width: 450px;
+  min-height: 45px;
+  background-color: #e91429;
+  display: flex;
+  
+}
+
+.log-error-icon{
+  background-color: #e91429;
+  color: white;
+  font-size: 20px;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+.log-error-content{
+  padding-left: 15px;
+  padding-top: 12px;
+  padding-right: 15px;
+  color: white;
+  font-weight: 500;
+
+}
+
+.button-group{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.button-login{
+  width: 450px;
+  height: 50px;
+  border-radius: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.4) ;
+  background-color: white;
+  font-size: 1.6rem;
+  font-weight: 530;
+  margin-bottom: 12px;
+}
+
+.button-login:hover{
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  opacity: 0.7;
+}
+
+.button-icon{
+   font-size: 1.8rem;
+   padding-right: 15px;
+}
+
+.button-facebook{
+  background-color: #3b5998;
+  color: white;
+}
+
+.button-apple{
+  background-color: #000000e6;
+  color: white;
+}
+
+.text-button{
+  color: #6a6a6a;
+}
+
+.line-or{
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+.line-hr{
+    margin: 6px 20px 20px 20px;
+    flex: 1 1 0%;
+    border-top: 1px solid rgb(217, 218, 220);
+}
+
+.form-input{
+  margin-top: 10px;
+}
+
+.form-group {
+  display: flex;
+  margin-bottom: 16px;
+  flex-direction: column;
+}
+
+.form-label {
+  padding-bottom: 10px;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.form-control {
+  height: 52px;
+  border: 2px solid #878787;
+  border-radius: 3px;
+  padding: 8px 12px;
+  font-size: 1.4rem;
+}
+
+.forgot-pass {
+   padding-bottom: 15px;
+}
+.forgot-pass a{
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  
+}
+
+.forgot-pass a:hover {
+  text-decoration: underline;
+}
+
+.form-submit {
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkbox-control {
+   height: 15px;
+   width: 15px;
+   margin-right: 15px;
+}
+
+.checkbox-control:checked {
+  background-color: #1ed760;
+}
+
+.remember-label {
+  font-weight: 500;
+  font-size: 1.3rem;
+  
+}
+
+.button-submit {
+  width: 125px;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+  font-size: 1.6rem;
+  font-weight: 530;
+  margin-bottom: 12px;
+  background-color: #1ed760;
+}
+.text-button-submit {
+  color: black;
+  font-weight: 600;
+}
+
+.button-submit:hover{
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  opacity: 0.7;
+}
+
+.text-button {
+  color: #6a6a6a;
+}
+
+.out-tittle{
+  text-align: center;
+  padding-bottom: 20px;
+  font-weight: 600;
+  font-size: 1.7rem;
+}
+
+
+
+
+
+
+
+  
